@@ -1,0 +1,13 @@
+
+module my-python3 1.0;
+
+require {
+	type blueman_t;
+	type ldconfig_exec_t;
+	class file { execute open read };
+}
+
+#============= blueman_t ==============
+
+#!!!! This avc is allowed in the current policy
+allow blueman_t ldconfig_exec_t:file { execute open read };

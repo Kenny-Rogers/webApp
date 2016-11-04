@@ -1,0 +1,13 @@
+main
+├── account				includes all files in the 
+│   └── accountInfo.php
+├── communication
+│   └── genralInfo.php
+├── dbConnect.php
+└── project
+    ├── fetchDesc.php
+    ├── overview.php
+    ├── resources.php
+    └── task.php
+
+3 directories, 7 files
